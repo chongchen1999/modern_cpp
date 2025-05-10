@@ -1,6 +1,6 @@
 # 01-Basics
 
-### 上半部分
+### 上半部分 
 
 1. 使用gcc（善用compiler explorer）编译并运行下面的程序：
 
