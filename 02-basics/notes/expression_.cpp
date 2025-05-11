@@ -1,5 +1,5 @@
-#include <iostream>
 #include <cstdlib>  // 需要包含这个头文件才能使用 std::abs()
+#include <iostream>
 
 int main() {
     // 1. 基本表达式
@@ -69,7 +69,8 @@ int main() {
     double pi = 3.14159;
     int intPi = static_cast<int>(pi);  // C++风格的类型转换
     std::cout << "类型转换表达式结果:" << std::endl;
-    std::cout << "double pi = " << pi << " → int intPi = " << intPi << std::endl;
+    std::cout << "double pi = " << pi << " → int intPi = " << intPi
+              << std::endl;
 
     return 0;
 }
