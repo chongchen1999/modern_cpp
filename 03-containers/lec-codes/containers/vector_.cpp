@@ -14,6 +14,13 @@ void printVector(const std::vector<T>& v, const std::string& name) {
 }
 
 int main() {
+    // 0
+    int x = 10;
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    std::cout << "sizeo of vec: " << sizeof(vec) << "\n";
+    std::cout << "Address of vec: " << &vec << "\n";
+    std::cout << "Address of first element: " << &vec[0] << "\n";
+
     // 1. Different ways to create vectors
     std::vector<int> emptyVec;       // Empty vector
     std::vector<int> sizedVec(5);    // Vector with 5 elements (0-initialized)
