@@ -4,15 +4,22 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/c++/13",  // 确保包含编译器标准库路径（根据实际路径调整）
-                "/usr/include/x86_64-linux-gnu/c++/13"
+                "/usr/local/gcc-14.1.0/include/c++/14.1.0",
+                "/usr/local/gcc-14.1.0/include/c++/14.1.0/x86_64-linux-gnu",
+                "/usr/local/gcc-14.1.0/include/c++/14.1.0/backward",
+                "/usr/include",
+                "/usr/local/include"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang++",  // 注意：必须用 clang++ 而非 clang
+            "compilerPath": "/usr/local/gcc-14.1.0/bin/g++-14.1.0",
             "cStandard": "c17",
-            "cppStandard": "c++23",  // 关键修改：从 c++14 升级到 c++20
-            "intelliSenseMode": "linux-clang-x64",
-            "compilerArgs": ["-std=c++23"]  // 显式传递编译参数
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-std=c++23",
+                "-I/usr/local/gcc-14.1.0/include"
+            ],
+            "configurationProvider": "ms-vscode.cpptools"
         }
     ],
     "version": 4
