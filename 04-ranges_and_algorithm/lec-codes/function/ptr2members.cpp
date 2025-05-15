@@ -53,15 +53,5 @@ int main() {
     std::invoke(salaryPtr, emp) = 70000.0;
     std::invoke(printPtr, emp);
 
-    // 使用 std::function 和 std::bind
-    std::cout << "\n=== std::function method ===" << std::endl;
-    std::function<void()> boundPrint = std::bind(printPtr, &emp);
-    std::function<void(double)> boundRaise =
-        std::bind(raisePtr, &emp, std::placeholders::_1);
-
-    boundPrint();
-    boundRaise(20.0);
-    boundPrint();
-
     return 0;
 }
