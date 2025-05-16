@@ -69,6 +69,11 @@
         "ranges": "cpp",
         "set": "cpp",
         "expected": "cpp",
-        "stacktrace": "cpp"
+        "stacktrace": "cpp",
+        "shared_mutex": "cpp",
+        "cfenv": "cpp",
+        "cinttypes": "cpp",
+        "text_encoding": "cpp",
+        "__locale": "cpp"
     }
 }
