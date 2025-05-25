@@ -21,3 +21,6 @@ AccessModifierOffset: -4
 
 # Indent function definitions inside namespaces
 NamespaceIndentation: All
+
+# New settings for extern blocks
+IndentExternBlock: true

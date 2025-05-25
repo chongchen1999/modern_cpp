@@ -2,3 +2,5 @@ build/
 a.out
 dump.txt
 elf.txt
+*.o
+*.so
