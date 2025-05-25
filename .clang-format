@@ -1,4 +1,3 @@
-# Based on LLVM style
 BasedOnStyle: LLVM
 IndentWidth: 4
 ColumnLimit: 80
@@ -19,3 +18,6 @@ UseTab: Never
 
 # Specific settings for access modifiers
 AccessModifierOffset: -4
+
+# Indent function definitions inside namespaces
+NamespaceIndentation: All
