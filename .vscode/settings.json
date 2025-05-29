@@ -82,6 +82,9 @@
         "stack": "cpp",
         "any": "cpp",
         "fstream": "cpp",
-        "typeindex": "cpp"
+        "typeindex": "cpp",
+        "__string": "c",
+        "future": "c",
+        "ios": "c"
     }
 }
