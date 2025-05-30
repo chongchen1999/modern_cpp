@@ -5,7 +5,7 @@ Language: Cpp
 
 # Control of individual formatting aspects
 AllowShortFunctionsOnASingleLine: Inline
-AllowShortIfStatementsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: Yes
 BreakBeforeBraces: Attach
