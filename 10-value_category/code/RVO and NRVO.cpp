@@ -1,12 +1,9 @@
 #include <iostream>
-class Object
-{
+class Object {
 public:
     Object() { std::cout << "Construct at " << this << "\n"; };
     ~Object() { std::cout << "Destruct at " << this << "\n"; };
-    Object(const Object&) { 
-        std::cout << "Const Copy at " << this << "\n"; 
-    };
+    Object(const Object&) { std::cout << "Const Copy at " << this << "\n"; };
     Object(Object&&) { std::cout << "Move at " << this << "\n"; };
     Object& operator=(const Object&) {
         std::cout << "Const Copy Assignment at " << this << "\n";
@@ -18,19 +15,16 @@ public:
     };
 };
 
-Object GetObject_RVO()
-{
+Object GetObject_RVO() {
     return Object();
 }
 
-Object GetObject_NRVO()
-{
+Object GetObject_NRVO() {
     Object obj;
     return obj;
 }
 
-int main()
-{
+int main() {
     std::cout << std::hex;
 
     std::cout << "RVO\n";
