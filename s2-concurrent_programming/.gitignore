@@ -1,0 +1,49 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vuepress
+node_modules/
+.vuepress/.cache/
+.vuepress/.temp/
+.vuepress/dist/
+
+.vscode/
+.vs/
+x64/
+out/
+bin/
+*.ilk
+*.pdb
+
+CMakePresets.json
+CMakeUserPresets.json
